@@ -19,3 +19,10 @@
 - Numbers and percentages normalized to reduce vocabulary size 
 - News headlines truncated to 512 tokens to fit BERT input 
 - Sliding window approach handles long financial reports 
+ 
+## 2026-06-25 
+### FinBERT Deployment Notes 
+- Model exported to ONNX format for faster CPU inference 
+- Docker container packages API with all dependencies included 
+- Gunicorn with multiple workers handles concurrent requests 
+- Health check endpoint added for monitoring API uptime 
