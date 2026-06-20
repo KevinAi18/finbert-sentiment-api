@@ -26,3 +26,10 @@
 - Docker container packages API with all dependencies included 
 - Gunicorn with multiple workers handles concurrent requests 
 - Health check endpoint added for monitoring API uptime 
+ 
+## 2026-06-27 
+### Real Time News Sentiment Pipeline Notes 
+- News API fetches live financial headlines for analysis 
+- Each headline passed through FinBERT for sentiment scoring 
+- Aggregated sentiment score computed per stock ticker symbol 
+- Pipeline runs on schedule using cron job every 15 minutes 
