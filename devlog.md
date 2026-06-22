@@ -33,3 +33,10 @@
 - Each headline passed through FinBERT for sentiment scoring 
 - Aggregated sentiment score computed per stock ticker symbol 
 - Pipeline runs on schedule using cron job every 15 minutes 
+ 
+## 2026-06-29 
+### Multi Language Financial Sentiment Notes 
+- Standard FinBERT trained only on English financial text 
+- Multilingual variants needed for non English market analysis 
+- XLM-RoBERTa fine-tuned as alternative for cross lingual sentiment 
+- Translation pipeline tested as fallback for unsupported languages 
