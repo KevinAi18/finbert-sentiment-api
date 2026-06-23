@@ -40,3 +40,10 @@
 - Multilingual variants needed for non English market analysis 
 - XLM-RoBERTa fine-tuned as alternative for cross lingual sentiment 
 - Translation pipeline tested as fallback for unsupported languages 
+ 
+## 2026-07-02 
+### Rate Limiting and API Security Notes 
+- Rate limiting prevents API abuse and ensures fair usage 
+- Token bucket algorithm used to control request rate per client 
+- API key authentication added to restrict unauthorized access 
+- Request logging helps monitor usage patterns and detect anomalies 
