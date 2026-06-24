@@ -47,3 +47,10 @@
 - Token bucket algorithm used to control request rate per client 
 - API key authentication added to restrict unauthorized access 
 - Request logging helps monitor usage patterns and detect anomalies 
+ 
+## 2026-07-04 
+### Sentiment Trend Visualization Notes 
+- Sentiment scores plotted over time to show trend per stock 
+- Moving average smooths out noisy daily sentiment fluctuations 
+- Correlation tested between sentiment trend and price movement 
+- Dashboard built with Plotly for interactive sentiment charts 
