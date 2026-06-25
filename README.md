@@ -150,4 +150,9 @@ docker-compose up -d
 ### Why FinBERT instead of a general BERT for financial text?
 General-purpose BERT models are trained on general corpora like BookCorpus and English Wikipedia. In these domains, words like "bear," "bull," "exposure," "volatility," or "liability" do not have strong directional implications. In the financial domain, however, these words carry highly specific meanings that drive market decisions. 
 
-Because FinBERT is pre-trained and fine-tuned on financial news articles and SEC filings containing over 4.7 billion tokens, it understands the unique contextual associations of financial terminology. Tests show that using a general-purpose model for financial tasks yields significantly lower accuracy and misses critical trading signals.
+Because FinBERT is pre-trained and fine-tuned on financial news articles and SEC filings containing over 4.7 billion tokens, it understands the unique contextual associations of financial terminology. Tests show that using a general-purpose model for financial tasks yields significantly lower accuracy and misses critical trading signals. 
+## Example Request 
+ 
+```bash 
+curl -X POST http://localhost:8000/sentiment -H "Content-Type: application/json" -d "{\"text\": \"Company reports record quarterly profit\"}" 
+``` 
