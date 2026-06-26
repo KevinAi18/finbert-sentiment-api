@@ -54,3 +54,10 @@
 - Moving average smooths out noisy daily sentiment fluctuations 
 - Correlation tested between sentiment trend and price movement 
 - Dashboard built with Plotly for interactive sentiment charts 
+ 
+## 2026-07-06 
+### Sentiment Confidence Calibration Notes 
+- Raw softmax scores are not always well calibrated probabilities 
+- Temperature scaling adjusts confidence to better match accuracy 
+- Calibration plot compares predicted confidence vs actual accuracy 
+- Important for downstream systems that act on confidence thresholds 
