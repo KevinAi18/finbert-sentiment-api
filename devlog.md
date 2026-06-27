@@ -61,3 +61,10 @@
 - Temperature scaling adjusts confidence to better match accuracy 
 - Calibration plot compares predicted confidence vs actual accuracy 
 - Important for downstream systems that act on confidence thresholds 
+ 
+## 2026-07-08 
+### Sentiment API Load Testing Notes 
+- Locust used to simulate concurrent users hitting sentiment endpoint 
+- P95 latency measured under increasing load to find breaking point 
+- Async FastAPI handlers improve throughput under high concurrency 
+- Model batching reduces per request overhead during peak traffic 
