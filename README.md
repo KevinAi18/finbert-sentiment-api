@@ -156,3 +156,9 @@ Because FinBERT is pre-trained and fine-tuned on financial news articles and SEC
 ```bash 
 curl -X POST http://localhost:8000/sentiment -H "Content-Type: application/json" -d "{\"text\": \"Company reports record quarterly profit\"}" 
 ``` 
+ 
+## Endpoints 
+ 
+ 
+## Response Format 
+Returns JSON with label (positive, negative, neutral) and a confidence score between 0 and 1. 
