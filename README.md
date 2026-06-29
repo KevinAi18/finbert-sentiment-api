@@ -162,3 +162,9 @@ curl -X POST http://localhost:8000/sentiment -H "Content-Type: application/json"
  
 ## Response Format 
 Returns JSON with label (positive, negative, neutral) and a confidence score between 0 and 1. 
+ 
+## Use Cases 
+- Stock market news sentiment monitoring 
+- Earnings call transcript analysis 
+- Social media sentiment tracking for tickers 
+- Automated alerts on sentiment shifts 
