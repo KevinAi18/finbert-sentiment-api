@@ -168,3 +168,8 @@ Returns JSON with label (positive, negative, neutral) and a confidence score bet
 - Earnings call transcript analysis 
 - Social media sentiment tracking for tickers 
 - Automated alerts on sentiment shifts 
+ 
+## Model Details 
+- Base model is BERT fine-tuned on financial text corpus 
+- Outputs three classes - positive, negative and neutral 
+- Trained on Reuters financial news and earnings call data 
