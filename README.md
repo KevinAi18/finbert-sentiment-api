@@ -173,3 +173,9 @@ Returns JSON with label (positive, negative, neutral) and a confidence score bet
 - Base model is BERT fine-tuned on financial text corpus 
 - Outputs three classes - positive, negative and neutral 
 - Trained on Reuters financial news and earnings call data 
+ 
+## Contributing 
+- Fork the repo and create your feature branch 
+- Ensure all existing tests pass before opening a PR 
+- Add tests for any new functionality you introduce 
+- Open a pull request with a clear summary of changes 
