@@ -185,3 +185,9 @@ Returns JSON with label (positive, negative, neutral) and a confidence score bet
 - ONNX export reduces latency by 40 percent vs PyTorch baseline 
 - Throughput of 200 requests per second achieved with async FastAPI 
 - Redis caching cuts repeated query latency to under 5ms 
+ 
+## License 
+This project is released under the MIT License. See the LICENSE file for details. 
+ 
+## Acknowledgements 
+Built on top of the FinBERT model and FastAPI framework. 
