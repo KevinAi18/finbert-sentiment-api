@@ -191,3 +191,7 @@ This project is released under the MIT License. See the LICENSE file for details
  
 ## Acknowledgements 
 Built on top of the FinBERT model and FastAPI framework. 
+ 
+## FAQ 
+Q: Can this be used for non-English text? 
+A: Not currently, the model is trained on English financial text only. 
