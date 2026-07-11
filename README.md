@@ -195,3 +195,7 @@ Built on top of the FinBERT model and FastAPI framework.
 ## FAQ 
 Q: Can this be used for non-English text? 
 A: Not currently, the model is trained on English financial text only. 
+ 
+## Troubleshooting 
+- If the model fails to load, check available disk space and memory 
+- If Redis caching errors occur, confirm Redis server is running 
