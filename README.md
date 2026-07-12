@@ -199,3 +199,8 @@ A: Not currently, the model is trained on English financial text only.
 ## Troubleshooting 
 - If the model fails to load, check available disk space and memory 
 - If Redis caching errors occur, confirm Redis server is running 
+ 
+## Deployment Options 
+- Docker container with Gunicorn for production serving 
+- ONNX export recommended for CPU only deployment environments 
+- Horizontal scaling supported behind a load balancer 
