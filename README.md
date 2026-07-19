@@ -1,3 +1,4 @@
+![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Python](https://img.shields.io/badge/python-3.11-blue.svg) 
 # FinBERT Sentiment API
 
 General NLP models consistently fail when applied to financial text. A sentiment analyzer trained on general corpora like Wikipedia or book datasets will read a phrase like "share prices fell" or "earnings beat expectations but guidance was cut" and fail to capture the subtle market implications that determine real-world trading actions. 
