@@ -205,3 +205,6 @@ A: Not currently, the model is trained on English financial text only.
 - Docker container with Gunicorn for production serving 
 - ONNX export recommended for CPU only deployment environments 
 - Horizontal scaling supported behind a load balancer 
+ 
+## Design Philosophy 
+This project is built for real time use in trading and monitoring workflows, so latency and predictable output format are prioritized over maximum model size. 
