@@ -211,3 +211,6 @@ This project is built for real time use in trading and monitoring workflows, so 
  
 ## Related Projects 
 Check out other projects in this portfolio for RAG, fine-tuning, and computer vision work. 
+ 
+## Related Projects 
+Check out other projects in this portfolio for RAG, fine-tuning, and computer vision work. 
